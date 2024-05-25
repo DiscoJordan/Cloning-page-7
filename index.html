@@ -18,7 +18,7 @@
                 <p>A privacy reminder from YouTube, a Google company</p>
             </div>
             <div class="header__answers">
-                <p class="gray">REMIND ME LATER</p>
+                <p class="gray hide">REMIND ME LATER</p>
                 <p class="blue">REVIEW</p>
             </div>
         </div>
@@ -37,10 +37,31 @@
                 </div>
             </div>
             <div class="header__buttons">
-                <img src="images/camera.svg" alt="cam" class="header__icons">
-                <img src="images/menu.svg" alt="menu" class="header__icons">
-                <img src="images/share.svg" alt="share" class="header__icons">
-                <img src="images/dots.svg" alt="dots" class="header__icons">
+                <div class="tooltip__search"><span class="material-icons">
+                        search
+                    </span>
+                    <span class="tooltiptext">Search</span>
+                </div>
+
+                <div class="tooltip"><span class="material-icons">
+                        videocam
+                    </span>
+                    <span class="tooltiptext">Upload</span>
+                </div>
+
+                <div class="tooltip">
+                    <img src="images/menu.svg" alt="menu" class="header__icons"> <span class="tooltiptext">YouTube
+                        Apps</span>
+                </div>
+
+                <div class="tooltip">
+                    <img src="images/share.svg" alt="share" class="header__icons"><span class="tooltiptext">Share</span>
+                </div>
+                <div class="tooltip">
+                    <img src="images/dots.svg" alt="dots" class="header__icons"><span
+                        class="tooltiptext">Settings</span>
+                </div>
+
                 <div class="header__signin">
                     <img src="images/profile.svg" alt="profile" class="header__icons">
                     <p>SIGN IN</p>
@@ -52,7 +73,7 @@
     <main>
         <div class="side-bar">
             <div class="nav">
-                <a class="nav-link active">
+                <a class="nav-link selected">
                     <i class="material-icons red">home</i>
                     <span class="black">Home</span>
                 </a>
@@ -172,7 +193,7 @@
                     <p>Our Terms of Service has been updated. Please review the new Terms.</p>
                 </div>
                 <div class="terms__answers">
-                    <p class="blue">OK</p>
+                    <p class="blue close">OK</p>
                     <p class="blue">REVIEW</p>
                 </div>
             </div>
@@ -199,78 +220,114 @@
                 </div>
                 <div class="videos__grid">
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
+
                             <img src="images/thumbnail2.webp" alt="">
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+
+                            </div>
                             <div class="videos__time">
                                 <p>26:18</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>Starbucks Be Like</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>Kyle Exum</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>1M views ∙ 1 year ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail.webp" alt="">
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>23:03</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>Gordon Ramsay Demonstrates Basic Cooking Skills | Ultimate Cookery Course</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>Gordon Ramsay</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>3.7M views ∙ 8 months ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail3.webp" alt="">
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>0:25</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>Ducks annihilate a bowl of peas</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
-                                <span class="material-icons">
+                                <p>DuckHouse</p>
+                                <!-- <span class="material-icons">
                                     check_circle
-                                </span>
+                                </span> -->
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>5.5M views ∙ 1 year ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail4.jpeg" alt="">
 
                             <div class="videos__arrow">
@@ -280,22 +337,33 @@
                                     </span>
                             </div>
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>2:25</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>How Jaden Smith Chooses a Role - Key & Peele</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
-                                <span class="material-icons">
+                                <p>Key & Peele</p>
+                                <!-- <span class="material-icons">
                                     check_circle
-                                </span>
+                                </span> -->
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>2M views ∙ 4 days ago</p>
                             </div>
                         </div>
 
@@ -315,89 +383,123 @@
                             <p>Recommended channel</p>
                         </div>
                     </div>
-                    <div class="videos__subscribe">
-                        SUBSCRIBE 9.2M
+                    <div class="videos__subscribe" id="first-button">
+                        <p id="first-subscribe" class="subscribe">SUBSCRIBE 1M</p>
+                        <p id="first-subscribed" class="subscribed">SUBSCRIBED</p>
                     </div>
 
                 </div>
                 <div class="videos__grid">
-                    
+
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail5.jpeg" alt="">
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>4:02</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>Can't Help Falling In Love - Elvis Cover by 6-Year-Old Claire Crosby</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>CNCO</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>38M views ∙ 1 year ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail6.png" alt="">
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>3:34</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>Why Real Saffron Is So Expensive | So Expensive</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>CNCO</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>877K views ∙ 1 month ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail7.jpeg" alt="">
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>3:51:39</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>Joe Rogan Experience #1518 - David Choe</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>CNCO</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>319K views ∙ 4 hours ago</p>
                             </div>
                         </div>
 
                     </div>
-                   
+
                 </div>
                 <hr>
-                
+
                 <div class="videos__flow">
                     <div class="videos__information">
                         <div class="videos__avatar">
@@ -410,86 +512,118 @@
                             <p>Recommended channel</p>
                         </div>
                     </div>
-                    <div class="videos__subscribe">
-                        SUBSCRIBE 9.2M
+                    <div class="videos__subscribe" id="second-button">
+                        <p id="second-subscribe" class="subscribe">SUBSCRIBE 823K</p>
+                        <p id="second-subscribed" class="subscribed">SUBSCRIBED</p>
                     </div>
 
                 </div>
                 <div class="videos__grid">
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail8.jpeg" alt="">
-
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>14:29</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>ACTUALLY STARTING MY RV BUILD: DEMOLITION</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>Janelle Eliana</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>1.2M views ∙ 1 year ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
-                            <img src="images/thumbnail9.jpeg" alt="">
+                        <div class="videos__cover">
+                            <img src="images/thumbnail16.webp" alt="">
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>4:25</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>When you accidentally write songs that already exist</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>Daniel Thrasher</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>1.7M views ∙ 4 days ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail10.jpeg" alt="">
-
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>0:25</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>it do go down</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
-                                <span class="material-icons">
+                                <p>RaShaun Gray</p>
+                                <!-- <span class="material-icons">
                                     check_circle
-                                </span>
+                                </span> -->
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>9.4M views ∙ 4 years ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail11.jpeg" alt="">
 
                             <div class="videos__arrow">
@@ -499,22 +633,34 @@
                                     </span>
                             </div>
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>11:42</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>H.E.R. Performs "I Can't Breathe" & "Fate" – Live | 2020 Roots Picnic Virtual Experience
+                            </p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>The Roots</p>
                                 <span class="material-icons">
-                                    check_circle
+                                    music_note
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>915K views ∙ 1 month ago</p>
                             </div>
                         </div>
 
@@ -534,86 +680,120 @@
                             <p>Recommended channel</p>
                         </div>
                     </div>
-                    <div class="videos__subscribe">
-                        SUBSCRIBE 9.2M
+                    <div class="videos__subscribe" id="third-button">
+                        <p id="third-subscribe" class="subscribe">SUBSCRIBE 9.2M</p>
+                        <p id="third-subscribed" class="subscribed">SUBSCRIBED</p>
                     </div>
 
                 </div>
                 <div class="videos__grid">
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail12.jpeg" alt="">
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>3:47</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>Usher - I Cry (Official Video)</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>Usher</p>
                                 <span class="material-icons">
-                                    check_circle
+                                    music_note
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>4.3M views ∙ 3 weeks ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail13.jpeg" alt="">
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>13:02</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>I Ordered Pizza And Tipped The House</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>MrBeast</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>49M views ∙ 7 months ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail14.jpeg" alt="">
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>9:03</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>How Pokémon Is Dubbed From Japanese To English | Vanity Fair</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>Venity Fair</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>8.1M views ∙ 4 months ago</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="videos__item">
-                        <div class="videos_cover">
+                        <div class="videos__cover">
                             <img src="images/thumbnail15.jpeg" alt="">
 
                             <div class="videos__arrow">
@@ -623,22 +803,33 @@
                                     </span>
                             </div>
 
+                            <div class="videos__icons">
+                                <span class="material-icons">
+                                    watch_later
+                                </span>
+                                <span class="material-icons">
+                                    queue
+                                </span>
+                            </div>
                             <div class="videos__time">
-                                <p>26:18</p>
+                                <p>3:41</p>
                             </div>
                         </div>
                         <div class="videos__name">
-                            <p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY...</p>
+                            <p>Experts predict more than 230,000 U.S. coronavirus deaths by November</p>
+                            <span class="material-icons">
+                                more_vert
+                            </span>
                         </div>
                         <div class="videos__footer">
                             <div class="videos__author">
-                                <p>DjMaRiiO</p>
+                                <p>ABC News</p>
                                 <span class="material-icons">
                                     check_circle
                                 </span>
                             </div>
                             <div class="videos__info">
-                                <p>930K views ∙ 19 hours ago</p>
+                                <p>164K views ∙ 6 hours ago</p>
                             </div>
                         </div>
 
@@ -648,6 +839,8 @@
         </div>
     </main>
     <!-- Main Body Ends -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
