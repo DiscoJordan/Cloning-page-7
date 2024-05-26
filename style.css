@@ -20,7 +20,9 @@
     font-style: normal;
     scroll-behavior: smooth;
 }
-
+html{
+    background-color: #f7f7f7;
+}
 /* Header */
 .header {
     position: fixed;
@@ -684,17 +686,6 @@ hr {
     .side-bar.active{
         display: block;
     }
-}
-
-
-
-@media (max-width:425px) {
-    .terms {
-        display: none;
-    }
-
-
-
     .videos {
         display: flex;
         flex-direction: column;
@@ -703,6 +694,14 @@ hr {
     }
     .banner{
         padding: 1em 1em 2em 2em;
+    }
+}
+
+
+
+@media (max-width:425px) {
+    .terms {
+        display: none;
     }
 
     .header__buttons span {
