@@ -10,7 +10,7 @@ $(document).ready(function (){
         $('.header__reminder,main').toggleClass('active');
     });
 
-    $('.banner__close').click(function(event) {
+    $('.banner__close, .banner__button').click(function(event) {
         $('.banner').toggleClass('active');
     });
     $('.nav-link').click(function(event) {
