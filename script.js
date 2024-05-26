@@ -9,6 +9,9 @@ $(document).ready(function (){
     $('.hide').click(function(event) {
         $('.header__reminder,main').toggleClass('active');
     });
+    $('.hide').click(function(event) {
+        $('.side-bar').toggleClass('height');
+    });
 
     $('.banner__close, .banner__button').click(function(event) {
         $('.banner').toggleClass('active');

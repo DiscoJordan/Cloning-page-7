@@ -20,9 +20,11 @@
     font-style: normal;
     scroll-behavior: smooth;
 }
-html{
+
+html {
     background-color: #f7f7f7;
 }
+
 /* Header */
 .header {
     position: fixed;
@@ -162,13 +164,17 @@ main.active {
 /* Sidebar */
 .side-bar {
     position: fixed;
-    height: calc(100% - 56px);
+    height: calc(100% - 109px);
     overflow: scroll;
     width: 20%;
     background-color: #f0f0f0;
     color: #4a4a4a;
     transition: all 0.2s ease-in-out;
     z-index: 1;
+}
+
+.side-bar.height {
+    height: calc(100% - 56px);
 }
 
 .nav {
@@ -677,24 +683,30 @@ hr {
         gap: 1em;
     }
 
-   .header__buttons .header__signin {
+    .header__buttons .header__signin {
         display: none;
     }
 
     .side-bar {
         display: none;
     }
-    .side-bar.active{
+
+    .side-bar.active {
         display: block;
     }
+
     .videos {
         display: flex;
         flex-direction: column;
         gap: 2em;
         padding: 2em;
     }
-    .banner{
+
+    .banner {
         padding: 1em 1em 2em 2em;
+    }
+    .side-bar{
+        height: calc(100% - 56px);
     }
 }
 
