@@ -13,6 +13,10 @@ $(document).ready(function (){
     $('.banner__close').click(function(event) {
         $('.banner').toggleClass('active');
     });
+    $('.nav-link').click(function(event) {
+        $('.side-bar,.content').toggleClass('active');
+    });
+
 
 
     $('#first-button').click(function(event) {
