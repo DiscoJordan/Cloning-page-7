@@ -650,6 +650,14 @@ hr {
     .content {
         padding-left: 0;
     }
+    .side-bar {
+        display: none;
+    }
+
+    .side-bar.active {
+        display: block;
+    }
+
 
 }
 
@@ -687,19 +695,12 @@ hr {
         display: none;
     }
 
-    .side-bar {
-        display: none;
-    }
-
-    .side-bar.active {
-        display: block;
-    }
-
+   
     .videos {
         display: flex;
         flex-direction: column;
         gap: 2em;
-        padding: 2em;
+        padding: 1em;
     }
 
     .banner {
